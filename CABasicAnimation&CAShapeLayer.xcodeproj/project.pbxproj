@@ -13,6 +13,8 @@
 		0101D118244A9EB70097B88E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0101D116244A9EB70097B88E /* Main.storyboard */; };
 		0101D11A244A9EBB0097B88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0101D119244A9EBB0097B88E /* Assets.xcassets */; };
 		0101D11D244A9EBB0097B88E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0101D11B244A9EBB0097B88E /* LaunchScreen.storyboard */; };
+		0105A6F9244F299B00CA2F49 /* engine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0105A6F8244F299B00CA2F49 /* engine.mp3 */; };
+		01B5F0FD244BDFA400B04728 /* rainParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 01B5F0FC244BDFA400B04728 /* rainParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0101D119244A9EBB0097B88E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0101D11C244A9EBB0097B88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0101D11E244A9EBB0097B88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0105A6F8244F299B00CA2F49 /* engine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = engine.mp3; sourceTree = "<group>"; };
+		01B5F0FC244BDFA400B04728 /* rainParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = rainParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		0101D10F244A9EB70097B88E /* CABasicAnimation&CAShapeLayer */ = {
 			isa = PBXGroup;
 			children = (
+				0105A6F8244F299B00CA2F49 /* engine.mp3 */,
 				0101D110244A9EB70097B88E /* AppDelegate.swift */,
 				0101D112244A9EB70097B88E /* SceneDelegate.swift */,
 				0101D114244A9EB70097B88E /* ViewController.swift */,
+				01B5F0FC244BDFA400B04728 /* rainParticle.sks */,
 				0101D116244A9EB70097B88E /* Main.storyboard */,
 				0101D119244A9EBB0097B88E /* Assets.xcassets */,
 				0101D11B244A9EBB0097B88E /* LaunchScreen.storyboard */,
@@ -126,8 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0101D11D244A9EBB0097B88E /* LaunchScreen.storyboard in Resources */,
+				01B5F0FD244BDFA400B04728 /* rainParticle.sks in Resources */,
 				0101D11A244A9EBB0097B88E /* Assets.xcassets in Resources */,
 				0101D118244A9EB70097B88E /* Main.storyboard in Resources */,
+				0105A6F9244F299B00CA2F49 /* engine.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
